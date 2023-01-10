@@ -89,10 +89,10 @@ samtools view -H $OUTPUTFOLDER/bwa/$SAMPLE\-bwa-mem-sorted.bam
 samtools index $OUTPUTFOLDER/bwa/$SAMPLE-bwa-mem-sorted.bam 
 
 # Aqui seria filtrando já
-freebayes -f $DATAFOLDER/hg19.fasta \
---target $DATAFOLDER/BRCA.bed -F 0.3 -C 15 \
---pooled-continuous $OUTPUTFOLDER/bwa/$SAMPLE\-bwa-mem-sorted.bam \
-> $OUTPUTFOLDER/$SAMPLE\-freebayes.vcf
+# freebayes -f $DATAFOLDER/hg19.fasta \
+# --target $DATAFOLDER/BRCA.bed -F 0.3 -C 15 \
+# --pooled-continuous $OUTPUTFOLDER/bwa/$SAMPLE\-bwa-mem-sorted.bam \
+# > $OUTPUTFOLDER/$SAMPLE\-freebayes.vcf
 
 # Aqui sem filtrar, selecionar só depois com vcftools
 freebayes -f $DATAFOLDER/hg19.fasta \
