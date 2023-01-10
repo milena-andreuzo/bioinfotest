@@ -1,16 +1,27 @@
-
-
 1 - Quantas sequências de DNA de paciente sequenciados temos nos arquivos de fastqs R1 e R2 respectivamente ?
+Conforme resultado do FASTQC, temos 64276 em cada uma das partes do par R1 e R2.
 
 2 - Sobre o genoma humano hg19, quantos contigs tem o nosso genoma hg19 (hg19.fasta) aqui disponibilizado para este pipeline ?
+O arquivo disponibilizado contém 93 contigs (número de linhas em hg19.fasta.fai).
 
 3 - Quantos alinhamentos há na região chr17:41197694-41197819 ? 
+Há 128616 alinhamentos, visualizando o arquivo .bam convertido a partir do arquivo .sam gerado pelo alinhamento com BWA-MEM, conforme o comando:
 
+samtools view $OUTPUTFOLDER/bwa/$SAMPLE\-bwa-mem-sorted.bam -r chr17:41197694-41197819 -c
 
 4 - Quantos alinhamentos não conseguiram ser mapeados (unmapped alignments ?) 
+Os alinhamentos não mapeados somam 2663, de acordo com o comando:
 
+samtools view $OUTPUTFOLDER/bwa/$SAMPLE\-bwa-mem-sorted.bam -f 4 -c
 
 5 - Realize o alinhamento das sequências FASTQ contra o genoma de referência hg19 aqui disponibilizado, e realize a chamada de variantes utilizando a região alvo BRCA.list (interesse apenas na região dos genes BRCA1 e BRCA2).  Realize a anotação de dados funcionais usando o SNPEFF.
  Com este arquivo em mãos , responda as seguintes perguntas ?
 
 5.1- Quantas variantes existem com impacto funcional (Annotation_Impact) do tipo HIGH, MODERATE, LOW ? Existe alguma variante em HIGH ? Qual é cromossomo, posição e a alteração ?
+Isso pode ser visualizado no arquivo snpEff_summary.html. Em HIGH, há 5 variantes; em MODERATE, há 2 variantes; em LOW há 8 variantes.
+Com o resultado do snpEff, é possível ver que essa variante é no cromossomo 17:
+  * Deleção no transcrito NM_007300.4;
+  * Deleção no transcrito NM_007298.3;
+  * Deleção no transcrito NM_007294.4;
+  * Deleção no transcrito NM_007297.4;
+  * Deleção no transcrito NM_007299.4.

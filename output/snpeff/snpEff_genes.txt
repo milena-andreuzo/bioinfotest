@@ -1,0 +1,33 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_HIGH	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_3_prime_UTR_variant	variants_effect_5_prime_UTR_variant	variants_effect_downstream_gene_variant	variants_effect_frameshift_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_non_coding_transcript_exon_variant	variants_effect_splice_region_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+BRCA1	BRCA1	NM_007294.4	protein_coding	1	0	0	22	0	0	0	1	22	0	0	0	0	0
+BRCA1	BRCA1	NM_007297.4	protein_coding	1	0	0	22	0	0	0	1	22	0	0	0	0	0
+BRCA1	BRCA1	NM_007298.3	protein_coding	1	0	0	22	0	0	0	1	21	0	0	0	0	1
+BRCA1	BRCA1	NM_007299.4	protein_coding	1	0	0	22	0	0	0	1	22	0	0	0	0	0
+BRCA1	BRCA1	NM_007300.4	protein_coding	1	0	0	22	0	0	0	1	22	0	0	0	0	0
+BRCA1	BRCA1	NR_027676.2		0	0	0	23	0	0	0	0	22	0	1	0	0	0
+BRCA2	BRCA2	NM_000059.3	protein_coding	0	8	2	51	2	2	0	0	49	2	0	2	6	0
+N4BP2L1	N4BP2L1	NM_001079691.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001286459.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001286460.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001286461.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353627.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353628.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353629.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353630.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353631.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353632.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353633.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353634.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353635.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_001353636.2	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NM_052818.3	protein_coding	0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148475.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148476.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148477.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148478.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148479.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+N4BP2L1	N4BP2L1	NR_148480.2		0	0	0	10	0	0	10	0	0	0	0	0	0	0
+NBR2	NBR2	NR_003108.2		0	0	0	1	0	0	0	0	0	0	0	0	0	1
+NBR2	NBR2	NR_138145.1		0	0	0	1	0	0	0	0	0	0	0	0	0	1
+ZAR1L	ZAR1L	NM_001136571.2	protein_coding	0	0	0	5	0	0	0	0	0	0	0	0	0	5
